@@ -1,0 +1,9 @@
+.wrap{width: 1000px; margin: 0 auto;}
+.header{border-bottom: 3px solid #ff9400; padding: 15px 20px;}
+.header h1{font-size: 40px; float: left; font-family: "KaiTi";}
+.header .areas{float: right; color: #666; margin-top: 21px;}
+.header .time{color: #ff6600;}
+.header .ml10{margin-left: 10px;}
+.header .tip-title{color: #666;}
+.header .tel{color: #FF0000; font-family: Arial, Helvetica, sans-serif; font-weight: bold;}
+.banner{margin-top: 5px; border-bottom: 3px solid #ff9400; padding-bottom: 5px;}
