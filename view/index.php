@@ -205,9 +205,9 @@
 				<span class="block-title"><i class="icon iconfont">&#xf0089</i>订购饮料</span>
 				<div class="clearfix" onselectstart="return false;">
 					<dl class="jmfan">
-						<dt><img class="jmfanpic" src="../public/images/jmfan.png"></dt>
-						<dd class="tb-rmb-num"><span class="tb-rmb">¥</span><span>15.00</span></dd>
-						<dd class="nap-text">小份不辣</dd>
+						<dt><img class="drinkspic" src="../public/images/1.jpg"></dt>
+						<dd class="tb-rmb-num"><span class="tb-rmb">¥</span><span>3.00</span></dd>
+						<dd class="nap-text">雪碧</dd>
 						<dd>
 							<span class="nap-text">数量</span>
 							<span class="tb-stock">
@@ -218,9 +218,9 @@
 	        	</dd>
 					</dl>
 					<dl class="jmfan">
-						<dt><img class="jmfanpic" src="../public/images/jmfan.png"></dt>
-						<dd class="tb-rmb-num"><span class="tb-rmb">¥</span><span>15.00</span></dd>
-						<dd class="nap-text">小份微辣</dd>
+						<dt><img class="drinkspic" src="../public/images/2.jpg"></dt>
+						<dd class="tb-rmb-num"><span class="tb-rmb">¥</span><span>3.00</span></dd>
+						<dd class="nap-text">可乐</dd>
 						<dd>
 							<span class="nap-text">数量</span>
 							<span class="tb-stock">
@@ -231,9 +231,9 @@
 	        	</dd>
 					</dl>
 					<dl class="jmfan">
-						<dt><img class="jmfanpic" src="../public/images/jmfan.png"></dt>
-						<dd class="tb-rmb-num"><span class="tb-rmb">¥</span><span>15.00</span></dd>
-						<dd class="nap-text">小份中辣</dd>
+						<dt><img class="drinkspic" src="../public/images/3.jpg"></dt>
+						<dd class="tb-rmb-num"><span class="tb-rmb">¥</span><span>3.00</span></dd>
+						<dd class="nap-text">芬达</dd>
 						<dd>
 							<span class="nap-text">数量</span>
 							<span class="tb-stock">
@@ -244,9 +244,9 @@
 	        	</dd>
 					</dl>
 					<dl class="jmfan">
-						<dt><img class="jmfanpic" src="../public/images/jmfan.png"></dt>
-						<dd class="tb-rmb-num"><span class="tb-rmb">¥</span><span>15.00</span></dd>
-						<dd class="nap-text">小份重辣</dd>
+						<dt><img class="drinkspic" src="../public/images/4.jpg"></dt>
+						<dd class="tb-rmb-num"><span class="tb-rmb">¥</span><span>5.00</span></dd>
+						<dd class="nap-text">加多宝</dd>
 						<dd>
 							<span class="nap-text">数量</span>
 							<span class="tb-stock">
@@ -256,9 +256,75 @@
 	        		</span>
 	        	</dd>
 					</dl>
+				</div>
+				<div class="clearfix" onselectstart="return false;">
+					<dl class="jmfan">
+						<dt><img class="drinkspic" src="../public/images/5.jpg"></dt>
+						<dd class="tb-rmb-num"><span class="tb-rmb">¥</span><span>3.00</span></dd>
+						<dd class="nap-text">果粒橙</dd>
+						<dd>
+							<span class="nap-text">数量</span>
+							<span class="tb-stock">
+	            	<i class="icon iconfont">&#xf0153</i>
+	            	<input type="text" class="tb-text" value="0" title="请输入购买量">
+	            	<i class="icon iconfont">&#xf0154</i>
+	        		</span>
+	        	</dd>
+					</dl>
+					<dl class="jmfan">
+						<dt><img class="drinkspic" src="../public/images/6.jpg"></dt>
+						<dd class="tb-rmb-num"><span class="tb-rmb">¥</span><span>3.00</span></dd>
+						<dd class="nap-text">冰红茶</dd>
+						<dd>
+							<span class="nap-text">数量</span>
+							<span class="tb-stock">
+	            	<i class="icon iconfont">&#xf0153</i>
+	            	<input type="text" class="tb-text" value="0" title="请输入购买量">
+	            	<i class="icon iconfont">&#xf0154</i>
+	        		</span>
+	        	</dd>
+					</dl>
+					<dl class="jmfan">
+						<dt><img class="drinkspic" src="../public/images/7.jpg"></dt>
+						<dd class="tb-rmb-num"><span class="tb-rmb">¥</span><span>2.00</span></dd>
+						<dd class="nap-text">矿泉水</dd>
+						<dd>
+							<span class="nap-text">数量</span>
+							<span class="tb-stock">
+	            	<i class="icon iconfont">&#xf0153</i>
+	            	<input type="text" class="tb-text" value="0" title="请输入购买量">
+	            	<i class="icon iconfont">&#xf0154</i>
+	        		</span>
+	        	</dd>
+					</dl>
+					<dl class="jmfan">
+						<dt><img class="drinkspic" src="../public/images/33.jpg"></dt>
+						<dd class="tb-rmb-num"><span class="tb-rmb">¥</span><span>7.50</span></dd>
+						<dd class="nap-text">味全酸奶</dd>
+						<dd>
+							<span class="nap-text">数量</span>
+							<span class="tb-stock">
+	            	<i class="icon iconfont">&#xf0153</i>
+	            	<input type="text" class="tb-text" value="0" title="请输入购买量">
+	            	<i class="icon iconfont">&#xf0154</i>
+	        		</span>
+	        	</dd>
+					</dl>
+				</div>
+
+				<div class="line"></div>
+				<div class="buttons">
+					<button class="butn butn-orange">确定</button>
+					<button class="butn butn-cancel">重置</button>
+				</div>
 			</div>
 			<!-- E 订购饮料 -->
-
+		
+			<!--S footer -->
+			<div class="footer">
+					杭州味达餐饮有限公司 版权所有  浙ICP备11048774号-2   KeyWords：杭州鸡米饭外卖
+			</div>
+			<!--S footer -->
 		</div>
 	</body>
 	<script type="text/javascript" src="../public/js/jquery-1.11.1.js"></script>

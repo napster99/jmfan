@@ -13,8 +13,10 @@ body{font-family: Microsoft Yahei;}
 .outer{border: 1px solid #dcdbdb; padding: 10px; background: #f9f9f9; position: relative;}
 .cut-off-line{background: #ff9400; height: 3px; margin: 5px 0;}
 
+.footer{border-top: 3px solid #ff9400; margin-top: 60px; text-align: center; padding: 20px 0 55px 0;}
+
 /* butns */
-.butn{display: inline-block; border: 0; height: 25px; padding: 0 25px; line-height: 25px; text-align: center; vertical-align: middle; color: #fff; cursor: pointer; font-size: 14px; outline: none; font-family: Microsoft Yahei;}
+.butn{display: inline-block; border: 0; height: 35px; padding: 0 45px; line-height: 35px; text-align: center; vertical-align: middle; color: #fff; cursor: pointer; font-size: 14px; outline: none; font-family: Microsoft Yahei; font-size: 16px;}
 .butn-orange{background: #ff9400;}
 .butn-orange:hover{background: #FFAB37;}
 .butn-orange:active{background: #F08B00;}
@@ -52,6 +54,7 @@ body{font-family: Microsoft Yahei;}
 .jmfan{float: left; text-align: center; border: 1px dashed #dcdbdb; padding: 8px; margin: 20px 48px;}
 .jmfan dd{margin: 10px 0;}
 .jmfan .jmfanpic{width: 130px; height: 100px;}
+.jmfan .drinkspic{width: 130px; height: 130px;}
 
 .jmfan .icon{color: #ff6600; cursor: pointer; font-size: 18px;}
 .jmfan .icon:hover{color: #ff9400;}
