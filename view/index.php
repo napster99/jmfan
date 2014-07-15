@@ -5,9 +5,9 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7">
 		<title>
-        	味达外卖-杭州网上订餐_杭州外卖_黄焖鸡米饭网上订餐官网
-    	</title>
-		<meta name="Description" content="味达外卖,味捷外卖，">
+       	味达外卖-杭州网上订餐_杭州外卖_黄焖鸡米饭网上订餐官网
+    </title>
+		<meta name="Description" content="味达外卖,杭州味达外卖，黄焖鸡米饭网上订餐">
 		<link rel="stylesheet" type="text/css" href="../public/css/reset.css">
 		<link rel="stylesheet" type="text/css" href="../public/css/common.css">
 		<link rel="stylesheet" type="text/css" href="../public/font/iconfont.css">
@@ -18,7 +18,7 @@
 				<a href="http://www.jmfan.cn"><h1>宅“鸡”送--黄焖鸡米饭</h1></a>
 				<div class="areas">
 					<span class="tip-title">营业时间：</span><span class="time">09:00--21:00</span>
-					<span class="tip-title">订餐热线：</span><span class="tel">13958111541</span>
+					<span class="tip-title" style="margin-left:10px;">订餐热线：</span><span class="tel">13958111541</span>
 					<span>|</span><span class="tel ml10">13965774326</span>
 				</div>
 			</div>
@@ -49,6 +49,10 @@
 			<!-- S 确定地址 -->
 			<div class="outer module">
 				<span class="block-title"><i class="icon iconfont">&#xf01ea</i>确定地址</span>
+				<div class="tip-title">
+					<span class="tip-title-text">温馨提示：</span>
+					<span>为了外送员能快速准确地送达目的地，请您确保填写的地点准确无误，谢谢合作！</span>
+				</div>
 				<ul class="address clearfix">
 					<li class="item"><i class="icon iconfont">&#xf0156</i><a href="javascript:;">xxxxx</a></li>
 					<li class="item"><a href="javascript:;">xxxxx</a></li>
@@ -84,6 +88,10 @@
 			<!-- S 订购餐品 -->
 			<div class="outer module clearfix">
 				<span class="block-title"><i class="icon iconfont">&#xf01be</i>订购餐品</span>
+				<div class="tip-title">
+					<span class="tip-title-text">温馨提示：</span>
+					<span>每点一份鸡米饭，自动赠送白米饭一碗。如需加饭，请点此处<a class="get-rice" href="javascript:;">我要加饭</a></span>
+				</div>
 				<div class="clearfix" onselectstart="return false;">
 					<dl class="jmfan">
 						<dt><img class="jmfanpic" src="../public/images/jmfan.png"></dt>

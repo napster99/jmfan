@@ -1,7 +1,7 @@
 @charset 'utf-8';
 body{font-family: Microsoft Yahei;}
 .wrap{width: 1000px; margin: 0 auto;}
-.header{border-bottom: 3px solid #ff9400; padding: 15px 20px;}
+.header{border-bottom: 3px solid #ff9400; padding: 15px;}
 .header h1{font-size: 40px; float: left; font-family: "STKaiti"; color: #ff9400;}
 .header .areas{float: right; color: #666; margin-top: 21px;}
 .header .time{color: #ff6600;}
@@ -36,6 +36,8 @@ body{font-family: Microsoft Yahei;}
 .module{margin-top: 50px; border: 1px solid #ff6600;}
 .module .line{height: 1px; background: #ff6600; margin: 10px; font-size: 0;}
 .block-title{position: absolute; display: inline-block; padding: 8px 20px; top: -33px; left: -1px; background: #ff6600; color: #fff;}
+.module .tip-title{position: absolute; top: -25px; left: 150px}
+.module .tip-title .tip-title-text{color: #ee0000;}
 .block-title .icon{margin-right: 8px;}
 
 /* 确定地址 */
