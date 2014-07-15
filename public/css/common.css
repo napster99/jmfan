@@ -1,9 +1,64 @@
+@charset 'utf-8';
+body{font-family: Microsoft Yahei;}
 .wrap{width: 1000px; margin: 0 auto;}
 .header{border-bottom: 3px solid #ff9400; padding: 15px 20px;}
-.header h1{font-size: 40px; float: left; font-family: "KaiTi";}
+.header h1{font-size: 40px; float: left; font-family: "STKaiti"; color: #ff9400;}
 .header .areas{float: right; color: #666; margin-top: 21px;}
 .header .time{color: #ff6600;}
 .header .ml10{margin-left: 10px;}
 .header .tip-title{color: #666;}
 .header .tel{color: #FF0000; font-family: Arial, Helvetica, sans-serif; font-weight: bold;}
-.banner{margin-top: 5px; border-bottom: 3px solid #ff9400; padding-bottom: 5px;}
+.banner{margin-top: 5px; padding-bottom: 5px;}
+
+.outer{border: 1px solid #dcdbdb; padding: 10px; background: #f9f9f9; position: relative;}
+.cut-off-line{background: #ff9400; height: 3px; margin: 5px 0;}
+
+/* butns */
+.butn{display: inline-block; border: 0; height: 25px; padding: 0 25px; line-height: 25px; text-align: center; vertical-align: middle; color: #fff; cursor: pointer; font-size: 14px; outline: none; font-family: Microsoft Yahei;}
+.butn-orange{background: #ff9400;}
+.butn-orange:hover{background: #FFAB37;}
+.butn-orange:active{background: #F08B00;}
+.butn-cancel{margin-left: 50px; background: #BEBEBE;}
+.butn-cancel:hover{background: #D3D3D3;}
+.butn-cancel:active{background: #B4B4B4;}
+.buttons{text-align: center; padding: 5px 0px;}
+
+/* 订购流程 */
+.order-process{}
+.order-process .icon{font-size: 35px; color: #ff9400;}
+.order-process .text{color: #333;}
+.order-process .arrow{color: #999; vertical-align: sub; margin: 0 30px;}
+
+
+/* 订购模块 */
+.module{margin-top: 50px; border: 1px solid #ff6600;}
+.module .line{height: 1px; background: #ff6600; margin: 10px; font-size: 0;}
+.block-title{position: absolute; display: inline-block; padding: 8px 20px; top: -33px; left: -1px; background: #ff6600; color: #fff;}
+.block-title .icon{margin-right: 8px;}
+
+/* 确定地址 */
+.address{}
+.address .item{float: left; margin: 10px; position: relative;}
+.address .item .icon{position: absolute; color: #ff6600; top: -4px; left: -3px;}
+.address .item a{display: inline-block; padding: 5px 10px; border: 1px solid #dcdbdb;}
+.address .item a:hover{border: 1px solid #ff6600; color: #ff6600;}
+
+.other-contact{margin: 20px 10px;}
+.other-contact .icon{margin-right: 5px;}
+.text-filed{color: #fff; background: #ff6600; display: inline-block; padding: 8px 15px; font-size: 12px;}
+.text-input{display:inline-block; margin-bottom:0; vertical-align:middle; background-color: #fff; border: 1px solid #ff6600; color: #555; font-size:14px; height: 14px; line-height: 14px; padding: 8px 6px; outline: none; margin: -2px 0 0 0;}
+
+/* 订购餐品 */
+.jmfan{float: left; text-align: center; border: 1px dashed #dcdbdb; padding: 8px; margin: 20px 48px;}
+.jmfan dd{margin: 10px 0;}
+.jmfan .jmfanpic{width: 130px; height: 100px;}
+
+.jmfan .icon{color: #ff6600; cursor: pointer; font-size: 18px;}
+.jmfan .icon:hover{color: #ff9400;}
+.jmfan .icon:active{color: #DA5700;}
+.jmfan .tb-rmb{font-family: arial;}
+.jmfan .tb-rmb-num{font-family: Tahoma,Arial,Helvetica,sans-serif; font-weight: 700; font-size: 18px; color: #f40;}
+.jmfan .tb-text{width: 40px; text-align: center; border: 1px solid #ff6600; height: 20px;}
+
+
+.nap-text{color: #333; font-size: 14px;}

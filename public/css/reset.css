@@ -55,3 +55,33 @@ clear: both;
 height: 0;
 }
 .clearfix{*zoom:1;}
+
+
+a{text-decoration: none; color: #666;}
+a:hover{color: #ff9400;}
+input{outline: none;}
+
+
+/*
+
+
+NameVirtualHost *:81 
+<VirtualHost *:81> 
+AliasMatch ^/api/anchor(.*) D:/wamp/www/zhanqi/web_apps/api_anchor/public$1 
+AliasMatch ^/api/user(.*) D:/wamp/www/zhanqi/web_apps/api_user/public$1 
+AliasMatch ^/api/public(.*) D:/wamp/www/zhanqi/web_apps/api_public/public$1 
+AliasMatch ^/api/auth(.*) D:/wamp/www/zhanqi/web_apps/api_auth/public$1 
+AliasMatch ^/user(.*) D:/wamp/www/zhanqi/web_apps/user_center/public$1 
+DocumentRoot "D:/wamp/www/zhanqi/web_apps/web_v2/public/" 
+ServerName local.zhanqi.tv
+</VirtualHost> 
+
+<VirtualHost *:81> 
+AliasMatch ^/assets/swf(.*) D:/wamp/www/zhanqi/assets/flash_release$1 
+AliasMatch ^/assets/web/(.*) D:/wamp/www/zhanqi/assets/web_static$1 
+DocumentRoot "D:/wamp/www/zhanqi/web_apps/web_v2/public/" 
+ServerName local.static.zhanqi.tv 
+</VirtualHost> 
+
+
+*/
