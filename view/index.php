@@ -28,19 +28,19 @@
 			<div class="outer order-process">
 				<i class="icon iconfont">&#xf01ea</i>
 				<span class="text">确定地址</span>
-				<i class="icon iconfont arrow">&#xf0114;</i>
+				<i class="icon iconfont arrow">&#xf0114</i>
 
 				<i class="icon iconfont">&#xf01be</i>
 				<span class="text">订购餐品</span>
-				<i class="icon iconfont arrow">&#xf0114;</i>
+				<i class="icon iconfont arrow">&#xf0114</i>
 
 				<i class="icon iconfont">&#xf006e</i>
 				<span class="text">选择支付</span>
-				<i class="icon iconfont arrow">&#xf0114;</i>
+				<i class="icon iconfont arrow">&#xf0114</i>
 
 				<i class="icon iconfont">&#xf00eb</i>
 				<span class="text">提交订单</span>
-				<i class="icon iconfont arrow">&#xf0114;</i>
+				<i class="icon iconfont arrow">&#xf0114</i>
 
 				<i class="icon iconfont">&#xf0090</i>
 				<span class="text">等待送达</span>
@@ -90,7 +90,7 @@
 				<span class="block-title"><i class="icon iconfont">&#xf01be</i>订购餐品</span>
 				<div class="tip-title">
 					<span class="tip-title-text">温馨提示：</span>
-					<span>每点一份鸡米饭，自动赠送白米饭一碗。如需加饭，请点此处<a class="get-rice" href="javascript:;">我要加饭</a></span>
+					<span>每点一份鸡米饭，免费赠送米饭一碗。如需加饭，请点此处<i class="icon iconfont handtip">&#xf016b</i><a class="get-rice" href="javascript:;">我要加饭</a></span>
 				</div>
 				<div class="clearfix" onselectstart="return false;">
 					<dl class="jmfan">
@@ -330,10 +330,52 @@
 		
 			<!--S footer -->
 			<div class="footer">
-					杭州味达餐饮有限公司 版权所有  浙ICP备11048774号-2   KeyWords：杭州鸡米饭外卖
+				<div class="areas" style="margin-bottom:10px;">
+					<span class="tip-title" style="margin-left:10px;">订餐热线：</span><span class="tel">13958111541</span>
+					<span>|</span><span class="tel ml10" style="margin-left:6px;">13965774326</span>
+				</div>
+					杭州味达餐饮有限公司 版权所有  浙ICP备11048774号-2   KeyWords：杭州鸡米饭外卖 <a class="suggest" href="javascript:;">建议反馈</a>
+
 			</div>
 			<!--S footer -->
 		</div>
+		
+		<!--S 订单项 -->
+		<div class="order-list">
+			<div class="order-title">订单项</div>
+			<div class="order-con">
+				<ul class="check-list">
+					<li><span><strong class="required">*</strong>确定地址</span><span class="mid-line">----------</span><span><i class="icon iconfont error">&#xf0155</i></span></li>
+					<li><span><strong class="required">*</strong>订购餐品</span><span class="mid-line">----------</span><span><i class="icon iconfont success">&#xf0156</i></span></li>
+					<li><span>订购饮料</span><span class="mid-line">----------</span><span><i class="icon iconfont error">&#xf0155</i></span></li>
+				</ul>	
+				<div class="menu-list">
+					<div class="menu-title">
+						<span>品名</span>
+						<span style="margin-left:30px;">数量</span>
+						<span style="margin-left:30px;">金额</span>
+					</div>
+					<ul class="menu-con">
+						<li><span style="width:95px;">小份(不辣)</span><span style="width:55px;">x1</span><span class="tb-rmb">¥</span><span>13.00</span></li>
+						<li><span style="width:95px;">大份(中辣)</span><span style="width:55px;">x1</span><span class="tb-rmb">¥</span><span>3.00</span></li>
+						<li><span style="width:95px;">加多宝</span><span style="width:55px;">x23</span><span class="tb-rmb">¥</span><span>23.00</span></li>
+						<li><span style="width:95px;">可乐</span><span style="width:55px;">x1</span><span class="tb-rmb">¥</span><span>3.00</span></li>
+					</ul>
+					<div class="menu-title mt10">
+						<span style="margin-left:85px;">合计:</span>
+						<span class="sum-money" style="margin-left: 0;">¥113.00</span>
+						<div class="sub-areas">
+							<button class="butn butn-orange sub-btn">提交订单</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--E 订单项 -->
+
+		<!--S 我要建议 -->
+		
+		<!--E 我要建议 -->
 	</body>
 	<script type="text/javascript" src="../public/js/jquery-1.11.1.js"></script>
 	<script type="text/javascript" src="../public/js/index.js"></script>

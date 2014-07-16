@@ -6,13 +6,14 @@ body{font-family: Microsoft Yahei;}
 .header .areas{float: right; color: #666; margin-top: 21px;}
 .header .time{color: #ff6600;}
 .header .ml10{margin-left: 10px;}
-.header .tip-title{color: #666;}
-.header .tel{color: #FF0000; font-family: Arial, Helvetica, sans-serif; font-weight: bold;}
+.tip-title{color: #666;}
+.tel{color: #FF0000; font-family: Arial, Helvetica, sans-serif; font-weight: bold;}
 .banner{margin-top: 5px; padding-bottom: 5px;}
 
 .outer{border: 1px solid #dcdbdb; padding: 10px; background: #f9f9f9; position: relative;}
 .cut-off-line{background: #ff9400; height: 3px; margin: 5px 0;}
-
+.required{color: #D30000; font-weight: 700; position: absolute; left: 5px; top: 2px;}
+.mt10{margin-top: 10px;}
 .footer{border-top: 3px solid #ff9400; margin-top: 60px; text-align: center; padding: 20px 0 55px 0;}
 
 /* butns */
@@ -39,6 +40,8 @@ body{font-family: Microsoft Yahei;}
 .module .tip-title{position: absolute; top: -25px; left: 150px}
 .module .tip-title .tip-title-text{color: #ee0000;}
 .block-title .icon{margin-right: 8px;}
+.get-rice{color: #ff6600;}
+.handtip{margin: 0 10px; color: #ff6600;}
 
 /* 确定地址 */
 .address{}
@@ -67,3 +70,26 @@ body{font-family: Microsoft Yahei;}
 
 
 .nap-text{color: #333; font-size: 14px;}
+
+
+.suggest{color: #ff6600; margin-left: 15px;}
+
+
+/* 订单项 */
+.order-list{border: 1px solid #dcdbdb; background-color: #fff; width: 220px; position: fixed; z-index: 999; top: 150px; right: 0px;}
+.order-list .order-title{height: 35px; line-height: 35px; text-align: center; letter-spacing: 5px; background: #ff6600; color: #fff; }
+.order-list .order-con{padding: 20px 10px;}
+.order-list .check-list{text-align: center; padding-bottom: 15px;}
+.order-list .check-list li{height: 30px; line-height: 30px; position: relative;}
+.order-list .check-list .mid-line{margin: 0 5px; display: inline-block;}
+.order-list .check-list .error{color: #D30000;}
+.order-list .check-list .success{color: #00A53B;}
+.order-list .menu-list{}
+.order-list .menu-list .menu-title span{font-weight: bold; margin-left: 20px;}
+.order-list .menu-list .menu-con{border-top: 1px dashed #ff6600; border-bottom: 1px dashed #ff6600; margin-top: 10px; padding: 10px 0;}
+.order-list .menu-list .menu-con li{height: 30px; line-height: 30px; color: #3D3D3D;}
+.order-list .menu-list .menu-con li span{display: inline-block;}
+
+.sum-money{float: right; color: #f40; margin-right: 4px;}
+.sub-areas{text-align: center;}
+.sub-btn{padding: 0 25px; height: 28px; line-height: 28px; font-size: 16px; margin-top: 15px;}
