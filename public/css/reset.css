@@ -65,8 +65,9 @@ input{outline: none;}
 /*
 
 
-NameVirtualHost *:81 
-<VirtualHost *:81> 
+
+NameVirtualHost *:82
+<VirtualHost *:82> 
 AliasMatch ^/api/anchor(.*) D:/wamp/www/zhanqi/web_apps/api_anchor/public$1 
 AliasMatch ^/api/user(.*) D:/wamp/www/zhanqi/web_apps/api_user/public$1 
 AliasMatch ^/api/public(.*) D:/wamp/www/zhanqi/web_apps/api_public/public$1 
@@ -76,12 +77,11 @@ DocumentRoot "D:/wamp/www/zhanqi/web_apps/web_v2/public/"
 ServerName local.zhanqi.tv
 </VirtualHost> 
 
-<VirtualHost *:81> 
+<VirtualHost *:82> 
 AliasMatch ^/assets/swf(.*) D:/wamp/www/zhanqi/assets/flash_release$1 
-AliasMatch ^/assets/web/(.*) D:/wamp/www/zhanqi/assets/web_static$1 
+AliasMatch ^/assets/web(.*) D:/wamp/www/zhanqi/assets/web_statics$1 
 DocumentRoot "D:/wamp/www/zhanqi/web_apps/web_v2/public/" 
 ServerName local.static.zhanqi.tv 
-</VirtualHost> 
-
+</VirtualHost>
 
 */

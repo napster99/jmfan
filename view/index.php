@@ -331,11 +331,12 @@
 			<!--S footer -->
 			<div class="footer">
 				<div class="areas" style="margin-bottom:10px;">
-					<span class="tip-title" style="margin-left:10px;">订餐热线：</span><span class="tel">13958111541</span>
-					<span>|</span><span class="tel ml10" style="margin-left:6px;">13965774326</span>
+					<span class="tip-title" style="margin-left:10px;">订餐热线：</span>
+					<span class="tel">13958111541</span>
+					<span class="tel ml10" style="margin-left:6px;">13965774326</span>
 				</div>
-					杭州味达餐饮有限公司 版权所有  浙ICP备11048774号-2   KeyWords：杭州鸡米饭外卖 <a class="suggest" href="javascript:;">建议反馈</a>
-
+					杭州味达餐饮有限公司 版权所有  浙ICP备11048774号-2   KeyWords：杭州鸡米饭外卖 
+					<a class="suggest" href="javascript:;">建议反馈</a>
 			</div>
 			<!--S footer -->
 		</div>
@@ -356,10 +357,10 @@
 						<span style="margin-left:30px;">金额</span>
 					</div>
 					<ul class="menu-con">
-						<li><span style="width:95px;">小份(不辣)</span><span style="width:55px;">x1</span><span class="tb-rmb">¥</span><span>13.00</span></li>
-						<li><span style="width:95px;">大份(中辣)</span><span style="width:55px;">x1</span><span class="tb-rmb">¥</span><span>3.00</span></li>
-						<li><span style="width:95px;">加多宝</span><span style="width:55px;">x23</span><span class="tb-rmb">¥</span><span>23.00</span></li>
-						<li><span style="width:95px;">可乐</span><span style="width:55px;">x1</span><span class="tb-rmb">¥</span><span>3.00</span></li>
+						<li><span style="width:92px;">小份(不辣)</span><span style="width:55px;">x1</span><span class="tb-rmb">¥</span><span>13.00</span></li>
+						<li><span style="width:92px;">大份(中辣)</span><span style="width:55px;">x1</span><span class="tb-rmb">¥</span><span>3.00</span></li>
+						<li><span style="width:92px;">加多宝</span><span style="width:55px;">x23</span><span class="tb-rmb">¥</span><span>23.00</span></li>
+						<li><span style="width:92px;">可乐</span><span style="width:55px;">x1</span><span class="tb-rmb">¥</span><span>3.00</span></li>
 					</ul>
 					<div class="menu-title mt10">
 						<span style="margin-left:85px;">合计:</span>
@@ -373,9 +374,73 @@
 		</div>
 		<!--E 订单项 -->
 
-		<!--S 我要建议 -->
-		
-		<!--E 我要建议 -->
+
+		<!-- S 确定订单 -->
+		<div class="win order-win" onselectstart="return false;">
+			<div class="win-title">我的订单<i class="icon iconfont close-win" title="关闭">&#xf0155</i></div>
+			<div class="win-con">
+				<div class="clearfix">
+					<div class="left-panel">
+						<ul>
+							<li style="margin-top:0;">
+								<span class="key">我的联系方式：</span>
+								<span class="value">13958111541</span>
+								<a class="modify-btns" href="javascript:;">修改</a>
+							</li>
+							<li>
+								<span class="key">我的具体地址：</span>
+								<span class="value" style="line-height:20px;">益乐新村北二区28幢403室益乐新村北二区28幢403室益乐新村北二区28幢403室</span>
+								<a class="modify-btns" href="javascript:;">修改</a>
+							</li>
+							<li>
+								<span class="key">我的送达时间：</span>
+								<span class="value">11:40</span>
+								<a class="modify-btns" href="javascript:;">修改</a>
+							</li>
+						</ul>
+						<div class="buttons nap-btns">
+							<button class="butn butn-orange pay-btns" title="支付宝付款">
+								<i class="iconfont">&#xf0103</i>支付宝付款
+							</button>
+							<button class="butn butn-orange pay-btns" title="货到付款" style="margin-left:15px;">
+								<i class="iconfont">&#xf01f3</i>货到付款
+							</button>
+						</div>
+					</div>
+					<div class="right-panel">
+						<div class="menu-list">
+							<div class="menu-title">
+								<span>品名</span>
+								<span style="margin-left:30px;">数量</span>
+								<span style="margin-left:30px;">金额</span>
+							</div>
+							<ul class="menu-con">
+								<li><span style="width:92px;">小份(不辣)</span><span style="width:55px;">x1</span><span class="tb-rmb">¥</span><span>13.00</span></li>
+								<li><span style="width:92px;">可乐</span><span style="width:55px;">x1</span><span class="tb-rmb">¥</span><span>3.00</span></li>
+							</ul>
+							<div class="menu-title mt10">
+								<span style="margin-left:85px;">合计:</span>
+								<span class="sum-money" style="margin-left: 0;">¥113.00</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- E 确定订单-->
+
+		<!--S 建议反馈 -->
+		<div class="win feedback-win" onselectstart="return false;">
+			<div class="win-title">建议反馈<i class="icon iconfont close-win" title="关闭">&#xf0155</i></div>
+			<div class="win-con">
+				<textarea class="back-text" placeholder="把您的不爽和建议，统统吐槽给我们吧..."></textarea>
+				<div class="buttons">
+					<button class="butn butn-orange">确定</button>
+					<button class="butn butn-cancel">取消</button>
+				</div>
+			</div>
+		</div>
+		<!--E 建议反馈 -->
 	</body>
 	<script type="text/javascript" src="../public/js/jquery-1.11.1.js"></script>
 	<script type="text/javascript" src="../public/js/index.js"></script>
