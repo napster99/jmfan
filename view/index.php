@@ -15,12 +15,12 @@
 	<body>
 		<div class="wrap">
 			<div class="header clearfix">
-				<a href="http://www.jmfan.cn"><h1>宅“鸡”送--黄焖鸡米饭</h1></a>
-				<div class="areas">
+				<a href="http://www.jmfan.cn" class="logo-area"><img class="logo" src="../public/images/2.png" ></a>
+				<!-- <div class="areas">
 					<span class="tip-title">营业时间：</span><span class="time">09:00--21:00</span>
 					<span class="tip-title" style="margin-left:10px;">订餐热线：</span><span class="tel">13958111541</span>
 					<span>|</span><span class="tel ml10">13965774326</span>
-				</div>
+				</div> -->
 			</div>
 			<div class="banner">
 				<img src="../public/images/pic.jpg" width="1000">
@@ -34,12 +34,12 @@
 				<span class="text">订购餐品</span>
 				<i class="icon iconfont arrow">&#xf0114</i>
 
-				<i class="icon iconfont">&#xf006e</i>
-				<span class="text">选择支付</span>
-				<i class="icon iconfont arrow">&#xf0114</i>
-
 				<i class="icon iconfont">&#xf00eb</i>
 				<span class="text">提交订单</span>
+				<i class="icon iconfont arrow">&#xf0114</i>
+
+				<i class="icon iconfont">&#xf006e</i>
+				<span class="text">选择支付</span>
 				<i class="icon iconfont arrow">&#xf0114</i>
 
 				<i class="icon iconfont">&#xf0090</i>
@@ -441,6 +441,11 @@
 			</div>
 		</div>
 		<!--E 建议反馈 -->
+
+
+		<!--S 遮罩层 -->
+		<div class="mask"></div>
+		<!--E 遮罩层 -->
 	</body>
 	<script type="text/javascript" src="../public/js/jquery-1.11.1.js"></script>
 	<script type="text/javascript" src="../public/js/index.js"></script>

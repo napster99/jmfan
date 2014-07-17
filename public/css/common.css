@@ -1,14 +1,17 @@
 @charset 'utf-8';
 body{font-family: Microsoft Yahei;}
 .wrap{width: 1000px; margin: 0 auto;}
-.header{border-bottom: 3px solid #ff9400; padding: 15px;}
-.header h1{font-size: 40px; float: left; font-family: "STKaiti"; color: #ff9400;}
-.header .areas{float: right; color: #666; margin-top: 21px;}
+.header{border-bottom: 3px solid #ff9400; padding-bottom: 10px;}
+.header h1{font-size: 40px; font-family: "STKaiti"; color: #ff9400;}
+.header .areas{float: right; color: #666;}
 .header .time{color: #ff6600;}
 .header .ml10{margin-left: 10px;}
 .tip-title{color: #666;}
 .tel{color: #FF0000; font-family: Arial, Helvetica, sans-serif; font-weight: bold;}
 .banner{margin-top: 5px; padding-bottom: 5px;}
+.logo-area{display: inline-block; width: 330px; line-height: 100px;}
+.logo{float: left;}
+
 
 .outer{border: 1px solid #dcdbdb; padding: 10px; background: #f9f9f9; position: relative;}
 .cut-off-line{background: #ff9400; height: 3px; margin: 5px 0;}
@@ -67,16 +70,12 @@ body{font-family: Microsoft Yahei;}
 .jmfan .tb-rmb{font-family: arial;}
 .jmfan .tb-rmb-num{font-family: Tahoma,Arial,Helvetica,sans-serif; font-weight: 700; font-size: 18px; color: #f40;}
 .jmfan .tb-text{width: 40px; text-align: center; border: 1px solid #ff6600; height: 20px;}
-
-
 .nap-text{color: #333; font-size: 14px;}
-
-
 .suggest{color: #ff6600; margin-left: 15px;}
 
 
 /* 订单项 */
-.order-list{border: 1px solid #dcdbdb; background-color: #fff; width: 220px; position: fixed; z-index: 999; top: 150px; right: 0px;}
+.order-list{background-color: #fff; width: 220px; position: fixed; z-index: 999; top: 150px; right: 0px;}
 .order-list .order-title{height: 35px; line-height: 35px; text-align: center; letter-spacing: 5px; background: #ff6600; color: #fff; font-size: 18px;}
 .order-list .order-con{padding: 20px 10px; border: 1px solid #ff6600;}
 .order-list .check-list{text-align: center; padding-bottom: 15px;}
@@ -107,13 +106,13 @@ body{font-family: Microsoft Yahei;}
 .win-con .back-text{width: 460px; height: 120px; resize: none; font-size: 16px; border: 1px solid  #dcdbdb;}
 
 /* 遮罩层 */
-
+.mask{position: absolute; z-index: 100; background: #000; opacity: .4; width: 100%; height: 2506px; filter:Alpha(Opacity=40); top: 0; left: 0; display: none;}
 
 /* 建议反馈 */
 .feedback-win{width:520px; height:300px; margin-top:-150px; margin-left:-260px; display:none;}
 
 /* 确定订单 */
-.order-win{height:300px; margin-top:-150px; margin-left:-300px; top: 45%;}
+.order-win{height:300px; margin-top:-150px; margin-left:-300px; top: 45%; display: none;}
 .order-win .buttons{margin-top: 50px; margin-left: -15px;}
 .order-win .left-panel{float: left;}
 .order-win .left-panel li{margin-top: 15px;}
