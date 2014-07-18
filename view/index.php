@@ -11,6 +11,7 @@
 		<link rel="stylesheet" type="text/css" href="../public/css/reset.css">
 		<link rel="stylesheet" type="text/css" href="../public/css/common.css">
 		<link rel="stylesheet" type="text/css" href="../public/font/iconfont.css">
+		<link rel="shortcut icon" href="../public/images/favicon.ico"/>
 	</head>
 	<body>
 		<div class="wrap">
@@ -335,7 +336,7 @@
 					<span class="tel">13958111541</span>
 					<span class="tel ml10" style="margin-left:6px;">13965774326</span>
 				</div>
-					杭州味达餐饮有限公司 版权所有  浙ICP备11048774号-2   KeyWords：杭州鸡米饭外卖 
+					杭州味达餐饮有限公司 版权所有  浙ICP备xxxxx号-2   KeyWords：杭州鸡米饭外卖 
 					<a class="suggest" href="javascript:;">建议反馈</a>
 			</div>
 			<!--S footer -->
