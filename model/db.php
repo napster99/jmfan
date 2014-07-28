@@ -1,29 +1,17 @@
 <?php 
-	$con = mysql_connect("localhost","root","");
+	$con = mysql_connect("210.83.80.21","sq_jmfan","jmf123");
 	if (!$con)
 	  {
 	  die('Could not connect: ' . mysql_error());
 	  }
 
-	if (mysql_query("CREATE DATABASE my_db",$con))
-	  {
-	  echo "Database created";
-	  mysql_select_db("my_db", $con);
-		$sql = "CREATE TABLE Persons 
-		(
-			FirstName varchar(15),
-			LastName varchar(15),
-			Age int
-		)";
-		mysql_query($sql,$con);
-	  }
-	else
-	  {
-	  echo "Error creating database: " . mysql_error();
-	  }
+		mysql_select_db("sq_jmfan", $con);
 
+		mysql_query("INSERT INTO Persons (FirstName, LastName, Age) 
+		VALUES ('Peter', 'Griffin', '35')");
 
+		mysql_query("INSERT INTO Persons (FirstName, LastName, Age) 
+		VALUES ('Glenn', 'Quagmire', '33')");
 
-
-	mysql_close($con);
+		mysql_close($con);
 ?>
